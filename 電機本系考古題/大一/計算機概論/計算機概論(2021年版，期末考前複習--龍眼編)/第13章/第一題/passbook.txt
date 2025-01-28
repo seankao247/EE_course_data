@@ -1,0 +1,14 @@
+Function           Usage                 Money                Balance
+
+ Others            Donated                41858                41858
+Deposit                steal               100000               141858
+Withdraw               dinner                99999                41859
+
+Withdraw                 TSMC                40000                 1859
+
+Deposit              nothing               999999              1001858
+Function           Usage                 Money                Balance
+
+ Others            Donated                31423                31423
+Withdraw               eating                30000                 1423
+Deposit                nfskj               100000               101423

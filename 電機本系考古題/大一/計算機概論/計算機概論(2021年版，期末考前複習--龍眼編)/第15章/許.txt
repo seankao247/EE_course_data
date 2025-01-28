@@ -1,0 +1,106 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+
+
+int main()
+{   FILE* input;
+
+
+    int n;
+    char ans[2];
+    char name[100];
+    int grade;
+    char output[100];
+    while(1)
+    {   printf("please choose one of the following function:\n");
+        printf("(1) check\n(2) remove \n(3) exit\nchoose:");
+        name[0] = '\0';
+        output[0] = '\0';
+        scanf("%d",&n);
+        int i;
+        if(n==1)
+        {   printf("please input the name:");
+            scanf("%s",name);
+            peter
+            i = strlen(name);
+
+            name[i] = '.';
+            name[i+1] = 't';
+            name[i+2] = 'x';
+            name[i+3] = 't';
+            name[i+4] = '\0';
+            peter.txt
+strcat(name,".txt")
+
+            if(fopen(name,"r")==NULL)
+            {
+                printf("if creats file:");
+                scanf("%s",ans);
+                if(ans[0]=='y')
+                {
+                    input = fopen(name,"w");
+                    printf("chinese:");
+                    scanf("%d",&grade);
+                    fprintf(input,"%d ",grade);
+                    printf("english:");
+                    scanf("%d",&grade);
+                    fprintf(input,"%d ",grade);
+                    printf("math:");
+                    scanf("%d",&grade);
+                    fprintf(input,"%d ",grade);
+                    fclose(input);
+
+                }
+                else
+                {
+
+                }
+
+
+            }
+            else
+            {
+                input =fopen(name,"r");
+                printf("subject:\n");
+
+
+                printf("chinese:");
+                fscanf(input,"%d",&grade);
+                printf("%d\n",grade);
+
+                printf("english:");
+                fscanf(input,"%d",&grade);
+                 printf("%d\n",grade);
+                printf("math:");
+                fscanf(input,"%d",&grade);
+                printf("%d\n",grade);
+
+            }
+
+
+            system("pause");
+            system("cls");
+        }
+        else if(n==2)
+        {   printf("please input the name:");
+            scanf("%s",name);
+            name[i] = '.';
+            name[i+1] = 't';
+            name[i+2] = 'x';
+            name[i+3] = 't';
+            name[i+4] = '\0';
+
+            remove(name);
+            system("pause");
+            system("cls");
+        }
+        else if(n==3)
+        {
+            break;
+        }
+    }
+
+}
